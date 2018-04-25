@@ -1,0 +1,7 @@
+---
+applications:
+- name: steven_cloud_foundry
+  instances: 1 
+  disk_quota: 2GB
+  command: dotnet MyExample.dll
+  buildpack: https://github.com/cloudfoundry/dotnet-core-buildpack.git 
