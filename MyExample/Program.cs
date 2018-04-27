@@ -6,8 +6,6 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Logging;
-using Steeltoe.Extensions.Configuration;
 using Steeltoe.Extensions.Configuration.CloudFoundry;
 
 namespace MyExample

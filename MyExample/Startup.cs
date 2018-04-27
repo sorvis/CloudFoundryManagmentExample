@@ -9,8 +9,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Steeltoe.Management.CloudFoundry;
-using Steeltoe.Management.Endpoint.CloudFoundry;
-using Steeltoe.Management.Endpoint.Health;
 using Steeltoe.Management.Endpoint.Info;
 using Steeltoe.Management.Endpoint.Info.Contributor;
 

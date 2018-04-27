@@ -11,8 +11,8 @@
   <ItemGroup>
     <PackageReference Include="GitInfo" Version="2.0.10" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />
-    <PackageReference Include="Steeltoe.Extensions.Configuration.CloudFoundry" Version="1.1.1" />
-    <PackageReference Include="Steeltoe.Management.CloudFoundry" Version="1.1.0" />
+    <PackageReference Include="Steeltoe.Extensions.Configuration.CloudFoundryCore" Version="2.0.1" />
+    <PackageReference Include="Steeltoe.Management.CloudFoundryCore" Version="2.0.1" />
   </ItemGroup>
 
   <ItemGroup>
