@@ -24,7 +24,7 @@ namespace MyExample
                 .ConfigureAppConfiguration((builderContext, config) =>
                 {
                     config.SetBasePath(builderContext.HostingEnvironment.ContentRootPath)
-                        .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+                        .AddJsonFile("appsettings.json", optional: false, reloadOnChange: false)
                         .AddJsonFile($"appsettings.{builderContext.HostingEnvironment.EnvironmentName}.json", optional: true)
                         .AddCloudFoundry()
                         .AddEnvironmentVariables();
